@@ -1,0 +1,7 @@
+if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-fou>
+        command_not_found_handle() {
+                /data/data/com.termux/files/usr/libexec/termux/command>
+        }
+fi
+
+PS1='#root@hacktivist\[\033[00;36m\] 💀 \[\033[00;36m\]'
