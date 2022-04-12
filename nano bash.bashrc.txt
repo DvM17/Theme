@@ -1,7 +1,7 @@
-if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-fou>
+if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         command_not_found_handle() {
-                /data/data/com.termux/files/usr/libexec/termux/command>
+                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
         }
 fi
 
-PS1='#root@hacktivist\[\033[00;36m\] 💀 \[\033[00;36m\]'
+PS1='#root@hacktivist\[\033[00;36m\] ðŸ’€ \[\033[00;36m\]'
